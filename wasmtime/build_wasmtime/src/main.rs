@@ -19,9 +19,11 @@ fn compile_file(filepath: &str, wasmtime_path: &str, arch_str: &str, base_path: 
         .args(&[
             "compile",
             "--cranelift",
-            "--target", arch_str,
+            "--target",
+            arch_str,
             filepath,
-            "-o", output_path,
+            "-o",
+            output_path,
         ])
         .output()
         .unwrap();
