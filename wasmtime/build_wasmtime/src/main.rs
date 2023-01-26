@@ -18,7 +18,7 @@ fn compile_file(filepath: &str, wasmtime_path: &str, arch_str: &str, base_path: 
     let cmd_output = Command::new(wasmtime_path)
         .args(&[
             "compile",
-            "--cranelift",
+            //"--cranelift",
             "--target",
             arch_str,
             filepath,
