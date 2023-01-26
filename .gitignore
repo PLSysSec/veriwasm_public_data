@@ -1,0 +1,7 @@
+negative_tests/negative_tests.o
+negative_tests/negative_tests.so
+negative_tests/negative_tests_locals.o
+negative_tests/negative_tests_locals.so
+shootout/
+wasmtime/bin/
+wasmtime/build_wasmtime/target/
